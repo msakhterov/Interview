@@ -1,3 +1,5 @@
+package Tasks;
+
 import java.util.Arrays;
 
 public class Main {
@@ -12,6 +14,16 @@ public class Main {
 
 //        Task 2: Fibonacci numbers difficulty = O(n)
         System.out.println(Arrays.toString(fibonacciNumbers(0, 1, 10)));
+
+//        Task3: bidirectional list
+        BidirectionalList<Integer> bidirectionalList = new BidirectionalList<>();
+        bidirectionalList.add(1);
+        bidirectionalList.add(4);
+        bidirectionalList.add(6);
+        bidirectionalList.add(4);
+        for(Integer item : bidirectionalList){
+            System.out.println(item);
+        }
 
     }
 
