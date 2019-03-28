@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CycleActivity</string>
+    <string name="main_fragment">Main fragment</string>
+</resources>
